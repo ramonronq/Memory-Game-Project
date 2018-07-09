@@ -39,7 +39,6 @@ function shuffle(array) {
 
 
 // Game variables
-
 var deck = ["fa-diamond", "fa-diamond", "fa-paper-plane-o", "fa-paper-plane-o", "fa-anchor", "fa-anchor",
            "fa-bolt", "fa-bolt", "fa-cube", "fa-cube", "fa-leaf", "fa-leaf",
            "fa-bicycle", "fa-bicycle", "fa-bomb", "fa-bomb"];
@@ -63,7 +62,6 @@ var modal = $("#win-modal");
 
 
 // Functions for game timer
-
 function updateTimer(state){
   if (state == "stop"){
     clearInterval(timerInterval);
@@ -268,5 +266,5 @@ function startAgain() {
 
  startAgain();
 
-// Provides a randomized game board on page load
+// Randomized cards are provided when game starts and restarts
  $(updateCards);
