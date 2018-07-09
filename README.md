@@ -21,6 +21,8 @@ Javascript source: https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min
 
 Images used for cards: https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css
 
+Shuffle function code provided: http://stackoverflow.com/a/2450976
+
 
 ## Link to the game on github
 
